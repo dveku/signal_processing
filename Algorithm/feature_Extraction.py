@@ -5,20 +5,23 @@ import pandas as pd
 from os import listdir
 from os.path import isfile,join
 import csv
+import time
 #-------------------------------------------------
-
+global number
 
 def feature_extract(path):
     #opening and setting up the csv file
     f=open('dataset/data_values/Emotion.csv','a')
     f.write('id,songname,tempo,total_beats,average_beats,chroma_stft_mean,chroma_stft_std,chroma_stft_var,chroma_cq_mean,chroma_cq_std,chroma_cq_var,chroma_cens_mean,chroma_cens_std,chroma_cens_var,melspectrogram_mean,melspectrogram_std,melspectrogram_var,mfcc_mean,mfcc_std,mfcc_var,mfcc_delta_mean,mfcc_delta_std,mfcc_delta_var,rmse_mean,rmse_std,rmse_var,cent_mean,cent_std,cent_var,spec_bw_mean,spec_bw_std,spec_bw_var,contrast_mean,contrast_std,contrast_var,rolloff_mean,rolloff_std,rolloff_var,poly_mean,poly_std,poly_var,tonnetz_mean,tonnetz_std,tonnetz_var,zcr_mean,zcr_std,zcr_var,harmonic_mean,harmonic_std,harmonic_var,perc_mean,perc_std,perc_var,frame_mean,frame_std,frame_var\n')
-    
+    number =1
+   
     id=0 #Song ID
     songid=0
     data_content=[]
     header_flag=0#please note... this is a trial and not sure if this variable is working or not
     # ---------------------------------------------------
     
+    total_time=0
     #creating the path for each audio to be read
     file_data=[f for f in listdir(path) if isfile(join(path,f))]
     path=path+"/"
@@ -28,7 +31,13 @@ def feature_extract(path):
             
                 #creating the path for each song
             songpath=path+song+".mp3"
-    # READING THE AUDIO SIGNAL
+        # READING THE AUDIO SIGNAL
+        
+        a=0
+        b=0
+        
+        a=time.time()
+        
         y, sr = librosa.load(songpath, duration=60)
         S = np.abs(librosa.stft(y))
            
@@ -192,18 +201,28 @@ def feature_extract(path):
         data_features.append(frame_mean)
         data_features.append(frame_std)
         data_features.append(frame_var)
-            
+        
+        b=time.time()
+        t=b-a
+        total_time=total_time+t
+        print(f'song {number}-{song} features extracted!') 
+        print(f'time spent to extract= {t} sec')
+        
+        
+        number=number+1
+        
          #-----------------------------------------------------------------
          #appending the features of one song to the csv file       
         data_content.append(data_features)
         
         #Writing into the csv file
-        with open('c://Users/hp/Documents/Github/signal_processing/dsp_project/dataset/data_values/Emotion.csv','w') as file:
+        with open('c://Users/hp/Documents/Github/signal_processing/dataset/data_values/Emotion.csv','w') as file:
             writer =csv.writer(file)
             if(header_flag==0):
                 writer.writerow(data_header)
             writer.writerows(data_content)
         header_flag=1   
-  
+        
+    print(f'total time allocated is {total_time} sec')
 #calling the feature extraction function
-feature_extract('c://Users/hp/Documents/Github/signal_processing/dsp_project/dataset/inputs')
+feature_extract('c://Users/hp/Documents/Github/signal_processing/dataset/inputs')

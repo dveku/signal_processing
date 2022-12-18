@@ -3,5 +3,5 @@ import pandas as pd
 import csv
 
 
-data=pd.read_csv('c://Users/hp/Documents/Github/dsp_project/dataset/data_values/Emotion.csv','r')
-data.readLine()
+data=pd.read_csv('c://Users/hp/Documents/Github/signal_processing/dataset/data_values/Emotion.csv')
+print(data[data['songname']=='Attention']['tempo']['chroma_stft_mean'])
