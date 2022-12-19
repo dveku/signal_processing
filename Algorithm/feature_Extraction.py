@@ -11,8 +11,7 @@ global number
 
 def feature_extract(path):
     #opening and setting up the csv file
-    f=open('dataset/data_values/Emotion.csv','a')
-    f.write('id,songname,tempo,total_beats,average_beats,chroma_stft_mean,chroma_stft_std,chroma_stft_var,chroma_cq_mean,chroma_cq_std,chroma_cq_var,chroma_cens_mean,chroma_cens_std,chroma_cens_var,melspectrogram_mean,melspectrogram_std,melspectrogram_var,mfcc_mean,mfcc_std,mfcc_var,mfcc_delta_mean,mfcc_delta_std,mfcc_delta_var,rmse_mean,rmse_std,rmse_var,cent_mean,cent_std,cent_var,spec_bw_mean,spec_bw_std,spec_bw_var,contrast_mean,contrast_std,contrast_var,rolloff_mean,rolloff_std,rolloff_var,poly_mean,poly_std,poly_var,tonnetz_mean,tonnetz_std,tonnetz_var,zcr_mean,zcr_std,zcr_var,harmonic_mean,harmonic_std,harmonic_var,perc_mean,perc_std,perc_var,frame_mean,frame_std,frame_var\n')
+    
     number =1
    
     id=0 #Song ID
@@ -139,7 +138,7 @@ def feature_extract(path):
             #-----------------------------------------------------
         
         
-        data_header=[songid,song,tempo,total_beats,average_beats,chroma_stft_mean,chroma_stft_std,chroma_stft_var,chroma_cq_mean,chroma_cq_std,chroma_cq_var,chroma_cens_mean,chroma_cens_std,chroma_cens_var,melspectrogram_mean,melspectrogram_std,melspectrogram_var,mfcc_mean,mfcc_std,mfcc_var,mfcc_delta_mean,mfcc_delta_std,mfcc_delta_var,rmse_mean,rmse_std,rmse_var,cent_mean,cent_std,cent_var,spec_bw_mean,spec_bw_std,spec_bw_var,contrast_mean,contrast_std,contrast_var,rolloff_mean,rolloff_std,rolloff_var,poly_mean,poly_std,poly_var,tonnetz_mean,tonnetz_std,tonnetz_var,zcr_mean,zcr_std,zcr_mean,harmonic_mean,harmonic_std,harmonic_var,perc_mean,perc_std,perc_var,frame_mean,frame_std,frame_var]
+        data_header=['id','songname','tempo','total_beats','average_beats','chroma_stft_mean','chroma_stft_std','chroma_stft_var','chroma_cq_mean','chroma_cq_std','chroma_cq_var','chroma_cens_mean','chroma_cens_std','chroma_cens_var','melspectrogram_mean','melspectrogram_std','melspectrogram_var','mfcc_mean','mfcc_std','mfcc_var','mfcc_delta_mean','mfcc_delta_std','mfcc_delta_var','rmse_mean','rmse_std','rmse_var','cent_mean','cent_std','cent_var','spec_bw_mean','spec_bw_std','spec_bw_var','contrast_mean','contrast_std','contrast_var','rolloff_mean','rolloff_std','rolloff_var','poly_mean','poly_std','poly_var','tonnetz_mean','tonnetz_std','tonnetz_var','zcr_mean','zcr_std','zcr_var','harmonic_mean','harmonic_std','harmonic_var','perc_mean','perc_std','perc_var','frame_mean','frame_std','frame_var']
         
         data_features=[]
             
@@ -220,8 +219,8 @@ def feature_extract(path):
             writer =csv.writer(file)
             if(header_flag==0):
                 writer.writerow(data_header)
-            writer.writerows(data_content)
-        header_flag=1   
+                header_flag==1
+            writer.writerows(data_content)  
         
     print(f'total time allocated is {total_time} sec')
 #calling the feature extraction function
