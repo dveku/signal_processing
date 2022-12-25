@@ -1,0 +1,14 @@
+numpy
+pandas
+librosa
+
+mysql.connector
+matplotlib
+
+
+row.songid,row.songname,row.tempo,row.total_beats,row.average_beats,row.chroma_stft_mean,row.chroma_stft_std,row.chroma_stft_var,row.chroma_cq_mean,row.chroma_cq_std,row.chroma_cq_var,row.chroma_cens_mean,row.chroma_cens_std,row.chroma_cens_var,row.melspectrogram_mean,row.melspectrogram_std,row.melspectrogram_var,row.mfcc_mean,row.mfcc_std,row.mfcc_var,row.mfcc_delta_mean,row.mfcc_delta_std,row.mfcc_delta_var,row.rmse_mean,row.rmse_std,row.rmse_var,row.cent_mean,row.cent_std,row.cent_var,row.spec_bw_mean,row.spec_bw_std,row.spec_bw_var,row.contrast_mean,row.contrast_std,row.contrast_var,row.rolloff_mean,row.rolloff_std,row.rolloff_var,row.poly_mean,row.poly_std,row.poly_var,row.tonnetz_mean,row.tonnetz_std,row.tonnetz_var,row.zcr_mean,row.zcr_std,row.zcr_var,row.harmonic_mean,row.harmonic_std,row.harmonic_var,row.perc_mean,row.perc_std,row.perc_var,row.frame_mean,row.frame_std,row.frame_var
+
+row[0],row[1],row[2],row[3],row[4],row[5],row[6],row[7],row[8],row[9],row[10],row[11],row[12],row[13],row[14],row[15],row[16],row[17],row[18],row[19],row[20],row[21],row[22],row[23],row[24],row[25],row[26],row[27],row[28],row[29],row[30],row[31],row[32],row[33],row[34],row[35],row[36],row[37],row[38],row[39],row[40],row[41],row[42],row[43],row[44],row[45],row[46],row[47],row[48],row[49],row[50],row[51],row[52],row[53],row[54],row[55]
+
+
+https://stackoverflow.com/questions/43240617/python-sqlite3-insert-list

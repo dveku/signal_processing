@@ -1,3 +1,6 @@
+#Objective:
+    # To test and check the conditions
+
 #importing all the libraries
 import librosa
 import numpy as np
@@ -8,7 +11,7 @@ import csv
 import time
 #-------------------------------------------------
 global number
-
+# print("logging")
 def feature_extract(path):
     #opening and setting up the csv file
     
@@ -200,7 +203,7 @@ def feature_extract(path):
         data_features.append(frame_mean)
         data_features.append(frame_std)
         data_features.append(frame_var)
-        
+        #Attributes
         b=time.time()
         t=b-a
         total_time=total_time+t
@@ -222,6 +225,6 @@ def feature_extract(path):
                 header_flag==1
             writer.writerows(data_content)  
         
-    print(f'total time allocated is {total_time} sec')
+    print(f'total time allocated is {total_time/60} min')
 #calling the feature extraction function
 feature_extract('c://Users/hp/Documents/Github/signal_processing/dataset/inputs')
