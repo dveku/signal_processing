@@ -8,7 +8,7 @@ import csv
 import time
 #-------------------------------------------------
 global number
-
+#this is a comment
 def feature_extract(path):
     #opening and setting up the csv file
     
