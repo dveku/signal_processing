@@ -11,7 +11,7 @@ import csv
 import time
 #-------------------------------------------------
 global number
-# print("logging")
+
 def feature_extract(path):
     #opening and setting up the csv file
     
