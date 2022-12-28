@@ -16,15 +16,8 @@ path=("c://Users/hp/Documents/GitHub/signal_processing/dataset/inputs/")
 
 y,sr=librosa.load('c:/Users/hp/Documents/GitHub/signal_processing/dataset/inputs/Attention.mp3',duration=1)  
 s= np.abs(librosa.stft(y))
-onset_env=librosa.onset.onset_strength(y=y,sr=sr)
-tempo,beats=librosa.beat.beat_track(y=y,sr=sr)   
-
-
-chroma_stft = librosa.feature.chroma_stft(y=y, sr=sr)
-print('chroma_stft is \n',chroma_stft)
-print("mean-",np.mean(chroma_stft))
-print("std-",np.std(chroma_stft))
+mfcc = librosa.feature.mfcc(y=y, sr=sr)
 f=open('C://Users/hp/Documents/GitHub/signal_processing/testing/test.txt','w')
-f.write('chromagram study\n')
-f.write(str(chroma_stft))
+f.write('MFCC\n')
+f.write(str(mfcc))
 f.close()

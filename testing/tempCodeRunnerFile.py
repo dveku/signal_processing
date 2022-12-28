@@ -1,2 +1,2 @@
-cr.execute("SELECT * FROM feature WHERE songid=1")   
-# print(cr.fetchone())
+cr.execute("ALTER TABLE feature ADD COLUMN Valence INTEGER")
+# cr.execute("ALTER TABLE feature ADD COLUMN Arousal INTEGER")

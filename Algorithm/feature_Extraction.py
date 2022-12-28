@@ -1,5 +1,3 @@
-#Objective:
-    # To test and check the conditions
 
 #importing all the libraries
 import librosa
