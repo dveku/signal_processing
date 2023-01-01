@@ -216,7 +216,7 @@ def feature_extract(path):
         data_content.append(data_features)
         
         #Writing into the csv file
-        with open('c://Users/hp/Documents/Github/signal_processing/dataset/data_values/Emotion.csv','w') as file:
+        with open('c://Users/hp/Documents/Github/signal_processing/dataset/data_values/Texcited_Emotion.csv','w') as file:
             writer =csv.writer(file)
             if(header_flag==0):
                 writer.writerow(data_header)
@@ -225,4 +225,4 @@ def feature_extract(path):
         
     print(f'total time allocated is {total_time/60} min')
 #calling the feature extraction function
-feature_extract('c://Users/hp/Documents/Github/signal_processing/dataset/inputs')
+feature_extract('c://Users/hp/Documents/Github/signal_processing/dataset/inputs/telugu/excited')
