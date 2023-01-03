@@ -1,7 +1,7 @@
 import sqlite3
 import csv
 try:
-    conn=sqlite3.connect('thappy_music.db')
+    conn=sqlite3.connect('trelaxed_music.db')
     print("database connected successfully!")
 except:
     print("Error connecting to database")
@@ -68,7 +68,7 @@ cr.execute("""CREATE TABLE thappy_feature(
                 )""")
 
 
-with open("c://Users/hp/Documents/Github/signal_processing/dataset/data_values/Thappy_Emotion.csv", "r") as csvfile:
+with open("c://Users/hp/Documents/Github/signal_processing/dataset/data_values/Trelaxed_Emotion.csv", "r") as csvfile:
     csvreader = csv.reader(csvfile)
     music=[]
     data=['songid','songname','tempo','total_beats','average_beats','chroma_stft_mean','chroma_stft_std','chroma_stft_var','chroma_cq_mean','chroma_cq_std','chroma_cq_var','chroma_cens_mean','chroma_cens_std','chroma_cens_var','melspectrogram_mean','melspectrogram_std','melspectrogram_var','mfcc_mean','mfcc_std','mfcc_var','mfcc_delta_mean','mfcc_delta_std','mfcc_delta_var','rmse_mean','rmse_std','rmse_var','cent_mean','cent_std','cent_var','spec_bw_mean','spec_bw_std','spec_bw_var','contrast_mean','contrast_std','contrast_var','rolloff_mean','rolloff_std','rolloff_var','poly_mean','poly_std','poly_var','tonnetz_mean','tonnetz_std','tonnetz_var','zcr_mean','zcr_std','zcr_var','harmonic_mean','harmonic_std','harmonic_var','perc_mean','perc_std','perc_var','frame_mean','frame_std','frame_var']
