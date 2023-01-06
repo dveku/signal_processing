@@ -1,0 +1,102 @@
+labels,source,path
+sad,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Adiga Adiga_s.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Appudo Ippudo_e.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Blockbuster_e.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Chali Chaliga_r.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Chilipiga_r.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Come To The Party_h.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Crazy Feeling_h.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Dhruva Dhruva_e.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Ee Manchullo_r.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Enduko Emo_r.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Kanne Kanne_h.mp3
+sad,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Kanureppala Kaalam_s.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Naatu Naatu_e.mp3
+sad,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Nammaka Thappani_s.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Nandalaala_r.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Nee Choopule_r.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Nuvve Samastham_h.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Nuvvunte_h.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/pakado_e.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Pakka local_e.mp3
+sad,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Priyathama Priyathama_s.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Rangule_h.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Rooba Rooba_r.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Sainika_e.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Seeti Maar_e.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Sirivennela_r.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Srivalli_h.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Sutiga Choodaku_r.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Top Lessipodi_e.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Unnatundi Gundey_h.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Uppenantha_h.mp3
+sad,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Varinche Prema_s.mp3
+excited,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Who are you_e.mp3
+relaxed,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Yenno Yenno_r.mp3
+sad,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/Yevevo_s.mp3
+happy,Telugu,c://Users/hp/Documents/Github/signal_processing/testing/inputs/telugu/You Are My Love_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Aliside Usiragide_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Alubandaru_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Annthamma_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Anuragada E Loka_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Arare Shuruvayitu Hege_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Baanina Haniyu_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Banna Bannada Loka_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Belageddu_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Bisilu Kudure_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Bit-Hogbeda-Mehboob-Saab_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Bitbide Bitbide_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Cheluvamma Premadamma (Male)_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Doora Doora_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Ee Preethiya Marethu_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Ee Preeti Manasugala_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Gelathi Ninninda_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Heege Doora_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Hoovige Thangali_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Hosatalla Ninna Parichaya_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Janumada Gelathi_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Kaarmoda Saridhu_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Kambani_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Kanna Neeru_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Kannolagondu_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Male Ninthu Hoda Mele (Female Version)_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Manase Manase_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Marali Manasaagide_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Masana-Seroythu-Memboob-Mehboob-Saab_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Mosa Madalendu Neenu_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Mouna Thaalithe_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Mussanje Veleyali_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Naguva Nayana_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Nanna Preethi Kusuri_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Nee Iralu Jotheyalli (Pathos)_h.mp3
+excited,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Neenire Saniha_e.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Neenire Saniha_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Neeralli Sanna (Duet Version)_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Ninna Danigaagi_h.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Ninna Naguvu_h.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/No Problem_h.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Noorondu Nenapu_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/O Mallige_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/O Manase_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Oh Hrudaya_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Olavanu Helu Baaro_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Olida Jeeva_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Omme Baaro_s.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Omme Ninnannu_h.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Onde Usirente_h.mp3
+happy,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Ondu Malebillu_h.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Parapancha Neene_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Preethi Preethi_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Preeti Maaruva Santeyalli_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Shoka Geethe_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Shurvago Munna_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Sri Ramachandranu_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Suriyoo Kaneera Omme_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Thagole Thagole_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Thumba Preethiso_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Usira Thantiye_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Yaarige Beku Ee Lokha_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Yaaru Ee Bhoomige_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Yaavudee Daari_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Yekanthada Mouna_s.mp3
+sad,Kannada,c://Users/hp/Documents/Github/signal_processing/testing/inputs/kannada/Yenne Yenne_s.mp3

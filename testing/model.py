@@ -55,3 +55,6 @@ for path in (path_list):
 # Check a few records to make sure its processed successfully
 print(len(df))
 print(df.head())
+
+df = pd.concat([path_list,pd.DataFrame(df['feature'].values.tolist())],axis=1)
+print(df[:5])
