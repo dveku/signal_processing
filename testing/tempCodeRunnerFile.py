@@ -1,2 +1,1 @@
-cr.execute("ALTER TABLE feature ADD COLUMN Valence INTEGER")
-# cr.execute("ALTER TABLE feature ADD COLUMN Arousal INTEGER")
+c://Users/hp/Documents/Github/signal_processing/testing/Data_path.csv
