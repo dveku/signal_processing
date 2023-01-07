@@ -142,10 +142,19 @@ model.add(Activation('relu'))
 model.add(Conv1D(64, 8, padding='same'))
 model.add(Activation('relu'))
 model.add(Flatten())
-model.add(Dense(14)) # Target class number
+model.add(Dense(4)) # Target class number
 model.add(Activation('softmax'))
 opt = keras.optimizers.RMSprop(lr=0.00001, decay=1e-6)
 print(model.summary())
 
 model.compile(loss='categorical_crossentropy', optimizer=opt,metrics=['accuracy'])
 model_history=model.fit(X_train, y_train, batch_size=16, epochs=100, validation_data=(X_test, y_test))
+
+
+plt.plot(model_history.history['loss'])
+plt.plot(model_history.history['val_loss'])
+plt.title('model loss')
+plt.ylabel('loss')
+plt.xlabel('epoch')
+plt.legend(['train', 'test'], loc='upper left')
+plt.show()
