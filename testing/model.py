@@ -158,3 +158,44 @@ plt.ylabel('loss')
 plt.xlabel('epoch')
 plt.legend(['train', 'test'], loc='upper left')
 plt.show()
+
+
+# Save model and weights
+model_name = 'Emotion_Model.h5'
+save_dir = os.path.join(os.getcwd(), 'saved_models')
+
+if not os.path.isdir(save_dir):
+    os.makedirs(save_dir)
+model_path = os.path.join(save_dir, model_name)
+model.save(model_path)
+print('Save model and weights at %s ' % model_path)
+
+# Save the model to disk
+model_json = model.to_json()
+with open("model_json.json", "w") as json_file:
+    json_file.write(model_json)
+    
+
+# loading json and model architecture 
+json_file = open('model_json.json', 'r')
+loaded_model_json = json_file.read()
+json_file.close()
+loaded_model = model_from_json(loaded_model_json)
+
+# load weights into new model
+loaded_model.load_weights("saved_models/Emotion_Model.h5")
+print("Loaded model from disk")
+ 
+# Keras optimiser
+opt = keras.optimizers.RMSprop(lr=0.00001, decay=1e-6)
+loaded_model.compile(loss='categorical_crossentropy', optimizer=opt, metrics=['accuracy'])
+score = loaded_model.evaluate(X_test, y_test, verbose=0)
+print("%s: %.2f%%" % (loaded_model.metrics_names[1], score[1]*100))
+
+preds = loaded_model.predict(X_test, 
+                         batch_size=16, 
+                         verbose=1)
+
+preds=preds.argmax(axis=1)
+preds
+
