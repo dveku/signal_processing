@@ -45,7 +45,9 @@ for i in dir_list:
     #     emotion.append('male_surprise')
     else:
         emotion.append('error') 
+        print(emotion)
     path.append(Telugu + i)
+    
  
 
 # Now check out the label count distribution 
